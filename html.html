@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Code Editor</title>
+  <link rel="stylesheet" href="./lib/css/style.css" />
+</head>
+
+<body>
+  <div class="editor">
+    <div class="editor-wrapper">
+      HTML
+      <div class="editor-body">
+        <div id="editor-code" class="editor-code"></div>
+      </div>
+    </div>
+  </div>
+  <!-- Requred ace libs -->
+  <script src="./lib/js/ace-editor/src-min/ace.js"></script>
+  <script src="./lib/js/ace-editor/src-min/mode-html.js"></script>
+  <script src="./lib/js/ace-editor/src-min/ext-language_tools.js"></script>
+  <!-- Custom script -->
+  <script src="./lib/js/editor-html.js"></script>
+  <script src="./lib/js/editor-console.js"></script>
+</body>
+
+</html>
